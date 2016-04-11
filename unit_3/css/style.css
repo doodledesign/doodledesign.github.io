@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background: url("../images/giraffe.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+}
+#slogan{font-style: italic;}
+.boxed {
+  border: 1px solid white ;
+  background: rgba(0,0,0,.5);
+  width:100px;
+  text-align:center;
+  height: 30px;
+  padding: 14px 25px;
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+}
+a:link{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(0,205,205);
+}
+
+#about{
+	width: 300px;
+	font-family: Helvetica;
+	display: inline-block;
+}
+
+ul {text-align: center;
+}
