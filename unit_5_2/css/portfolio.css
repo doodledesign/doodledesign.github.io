@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+
+
+body{
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+#nav {
+font-family: 'Montserrat', sans-serif;
+font-weight: 200;
+font-size: 12px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 3px;
+width: 100%;
+margin: 0;
+padding: 0;
+list-style: none;
+background-color: #f2f2f2;
+position: center;
+overflow: hidden;
+}
+
+#nav ul{
+	position: center;
+	display: table;
+	float: center;
+}
+
+.nav-text li {
+	text-align: center;
+
+}
+
+.nav-text li a {
+	display: block;
+	padding: 8px 50px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+.nav-text li a:hover {
+color: #d3d3d3;
+background-color: #fff;
+text-align: center;
+}
+
+
+
+
+#header {
+	background-image: url("../images/header/portfolio-bg.jpg");
+	padding: 100px 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: cover;
+}
+
+.hero-text h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+
+}
+
+
+#portfolio-container{
+	position: center;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 50px;
+	overflow:hidden;
+}
+
+
+.portfolio-item{
+	width: 300px;
+	padding: 10px 10px 30px 10px;
+	float: left;
+
+}
+
+.portfolio-item a:hover{
+	opacity: .6;
+
+}
+
+
+.portfolio-item h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+	color:#888;
+	text-decoration: none;
+	padding-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.portfolio-item h3:hover{
+	color: #d3d3d3;
+}
+
+.portfolio-item p{
+	font-family: 'Inconsolata';
+	font-size: 12px;
+	color: #888;
+	padding-top: 3px;
+	text-align: center;
+}
+
+.portfolio-item a{
+	text-decoration: none;
+}
+
+#footer{
+	background-image: url("../images/header/portfolio-bg.jpg");
+	padding: 100px 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: cover;
+}
+
