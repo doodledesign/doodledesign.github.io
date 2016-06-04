@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+
+
+body{
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+/*
+
+#nav {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #E8C66A;
+	overflow: hidden;
+	float: right;
+	width: 20px;
+
+}
+
+
+
+.nav-text li {
+	text-align: left;
+}
+
+.nav-text li a {
+	display: block;
+	padding: 8px 50px;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bold;
+	color: #000;
+	}
+
+.nav-text li a:hover {
+	color: #d3d3d3;
+	background-color: #fff;
+	text-align: center;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+/*---------------------- NAV ---------------------- */
+
+/*---------------------- HEADER ---------------------- */
+
+#header {
+	background-image: url("../images/header/portfolio-bg.jpg");
+	padding: 100px 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: cover;
+}
+
+.hero-text h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+
+}
+
+/*---------------------- HEADER ---------------------- */
+
+/*---------------------- PORTFOLIO ---------------------- */
+
+#portfolio-container{
+	position: center;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 50px;
+	overflow:hidden;
+}
+
+
+.portfolio-item{
+	width: 300px;
+	padding: 10px 10px 30px 10px;
+	float: left;
+
+}
+
+.portfolio-item a:hover{
+	opacity: .6;
+
+}
+
+
+.portfolio-item h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+	color:#888;
+	text-decoration: none;
+	padding-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.portfolio-item h3:hover{
+	color: #d3d3d3;
+}
+
+.portfolio-item p{
+	font-family: 'Inconsolata';
+	font-size: 12px;
+	color: #888;
+	padding-top: 3px;
+	text-align: center;
+}
+
+.portfolio-item a{
+	text-decoration: none;
+}
+
+/*---------------------- PORTFOLIO ---------------------- */
+
+/*---------------------- FOOTER ---------------------- */
+
+
+#footer{
+	background-image: url("../images/header/portfolio-bg.jpg");
+	padding: 20px;
+
+}
+
+
+#two_column{
+	padding: 20px;
+}
+
+#left{
+	padding: 40px;
+	float: left;
+	width: 10%;
+}
+
+#right{
+	padding: 20px;
+	float: right;
+	width: 30%;
+	margin-right: 40%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#left img{
+	padding: 20px;
+	margin-left: 18%;
+/*---------------------- FOOTER ---------------------- */
+
